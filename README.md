@@ -1,2 +1,6 @@
 # Tanks_Game
-Single-player video game in which a user controls a their Tank with keyboard and mousepad aimed to default attacking CPU Tanks.
+
+- Multiplayer or single-player game
+- User control with keyboard and mousepad
+- Regression-based AI for CPU tanks (different skills and ranks)
+- Tanks “attack” user until elimination or level completion
