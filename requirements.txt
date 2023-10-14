@@ -1,0 +1,2 @@
+# Python version: 3.7.9 suggested
+PyAutoGUI==0.9.54
