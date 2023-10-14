@@ -1,34 +1,34 @@
 # Tanks Game
 
-Welcome to the Tanks Game repository! Navigate your tank in 8 different directions to shoot and destroy CPU opponents in a competetive battle that only gets more difficult as you progress. Don't forget: gameplay is always unique because obstacles are periodically randomized.
+Welcome to the Tanks Game repository! Navigate your tank in 8 different directions to shoot and destroy CPU opponents in a competitive battle that only gets more difficult as you progress. Don't forget: gameplay is always unique because obstacles are periodically randomized.
 
 ## Demo
 
-A video demo for the game can be found [here](https://www.youtube.com/watch?v=44Ij5p1PsN0&t=14s).
+A video demo for the game can be found [here](https://www.youtube.com/watch?v=44Ij5p1PsN0).
 
-## Creators Note
+## Creator's Note
 
-I am proud of all my work, but this program can be buggy depending on your device. It was implemtmneted in 2020 when my programming practices were relatively poor (as compared to know), and I am definitely too lazy to make major changes at this point 😂 Regardless, enjoy the repository!
+I'm proud of this work, but please note that this program was developed back in 2020, at an earlier stage in my programming journey. As such, it might exhibit some performance issues on certain devices or Python versions. While I've grown and improved since then, I'm currently focusing on other projects and won't be making major updates to this one. So, this way it shall stay. 😂 Regardless, enjoy the repository!
 
 ## Overview
 
-This Python-based application brings to life a 2D virtual tank battle taking place within a displayed window. The ultimate goal for the user is to survive as long as possible. You navigate your tank around randomized barreirs and try to shoot down enemy CPU tanks. However, CPU tanks have the ability to avoid your shots and also fire back through predictive algorithms. There are multipel tanks types. You have the ability to shoot missles off the wall which is your distinct advantage over CPU enemy tanks.
+This Python-based application brings to life a 2D virtual tank battle in a dedicated window. The ultimate goal is for the user to survive as long as possible, while navigating their tank in 8 directions amidst randomized obstacles. While users have the distinct advantage to bounce missiles off walls to target CPU enemy tanks, it's not a one-sided fight. CPU tanks come in two varieties and possess the ability to attack the user and avoid incoming missiles through predictive algorithms.
 
 ### Key Features:
 
-1. **Tank Movement**: Tanks can move in 8 different directions (veritcal, horizontal, diagonal), providing players with the flexibility to navigating the battlefield.
-2. **Shooting Mechanism**: Tanks can shoot missles to destroy enemy tanks using mouse or mouse pad.
-3. **Level Progression**: As you continue to eliminate tanks, you will be advanced to higher levels in which more difficult game play is introduced, along with other varieties of CPU tanks. Specifically, CPU tanks become faster and more agile, also fire missles at higher rates.
+1. **Tank Movement**: All tanks can move in 8 different directions (vertical, horizontal, diagonal), providing players with the flexibility in navigating the battlefield.
+2. **Shooting Mechanism**: The user can shoot missiles to destroy enemy tanks using their mouse or mouse pad.
+3. **Level Progression**: As the user continues to eliminate tanks, they will be advanced to higher levels in which more difficult game play is introduced, along with other varieties of CPU tanks. Specifically, CPU tanks become faster and more agile, and fire missiles at higher speeds.
 4. **Randomized Obstacles**: At the end of each level, obstacles are randomized in size, shape, and location to enable more dynamic game play and map navigation.
 7. **Tank Variety**:
-   - The user tank: This is the tank you control, which has the ability to navigate the map, and fire missles at enemy tanks to elimnate them. An added bonus is that it is able to bouce it's missles off the wall.
-   - The shooter tank: This is a CPU tank which is able to navigate the map, dodge your missles, and target fire missles at you. It's disadvantage against you is that it cannot bounce it's missles off the wall.
-   - The attack tank: The attack tank is a extra speedy tank which is charges directly at the user tank, while also having the ability to dodge shots. While it does not have the ability to shoot missles, if it is able to make contact with the user tank, it explodes and eliminates it.
+   - The user tank: This is the tank the user controls. It has the ability to navigate the map, and fire missiles at enemy tanks in order to elimnate them. An added bonus is that it can bounce it's missiles off the walls and obstacles.
+   - The shooter tank: This is a CPU tank which is able to navigate the map, avoid the user tank's missiles, and fire missiles at the user.
+   - The attack tank: The attack tank is a extra speedy tank which charges directly at the user tank, while also having the ability to avoid the user's missiles. While it does not have the ability to shoot missiles itself, if it comes into contact with the user tank, it explodes and eliminates it.
 
 ## Implementation Details
 
-- **tanks.py**: This is the main game file. It contains the implementation of the game logic, including tank movement, shooting mechanisms, and the game loop. This file initializes a window using the `graphics.py` and then continuously checks for user input to move the tank or shoot missles . The game also checks for collisions between missles and enemy tanks to determine if a tank is destroyed.
-- **graphics.py**: This file contains the implementation of the graphics used in the game. It provides various classes and functions to handle graphical elements, such as windows, points, lines, circles, and text. The game uses this library to render the battlefield, tanks, and missles.
+- **tanks.py**: This is the main game file. It contains the implementation of the game logic, including tank movement, shooting mechanisms, and the game loop. This file initializes a window using `graphics.py` and then continuously checks for user input to move the tank or shoot missiles . The game also checks for collisions between missiles and enemy tanks to determine if a tank is destroyed.
+- **graphics.py**: This file contains the implementation of the graphics used in the game. It provides various classes and functions to handle graphical elements, such as windows, points, lines, circles, and text. The game uses this library to render the battlefield, tanks, and missiles.
 - **images**: This folder stores the images used and displayed in the game window.
 
 ## Installation and Dependencies
