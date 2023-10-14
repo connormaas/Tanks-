@@ -40,7 +40,7 @@ General:
 Step-by-step:
 1. Clone the repository to your local machine.
 2. Navigate to the repository's main directory.
-3. Make sure to install `pip` and `Python` to your device.
+3. Make sure to have `pip` and `Python` installed on your device.
 4. Run `pip install -r requirements.txt`.
 5. Run the `tanks.py` file using Python.
 
