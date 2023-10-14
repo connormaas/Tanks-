@@ -120,25 +120,25 @@ def appStarted(app, highScore=None):
 
   #IMAGES
   # from https://craftpix.net/product/2d-top-down-tank-game-assets/
-  app.storeUserTankIm = ([["track_1_A.png","track_1_B.png"],["hull_02.png"],
-                        ["gun_01.png"]])
-  app.userTankIm = ([["track_1_A.png","track_1_B.png"],["hull_02.png"],
-                        ["gun_01.png"]])
+  app.storeUserTankIm = ([["images/track_1_a.png","images/track_1_b.png"],["images/hull_02.png"],
+                        ["images/gun_01.png"]])
+  app.userTankIm = ([["images/track_1_a.png","images/track_1_b.png"],["images/hull_02.png"],
+                        ["images/gun_01.png"]])
   
 
-  app.storeNormalTankIm = ([["track_1_a.png","Track_1_b.png"],["hull_06.png"],
-                          ["gun_03.png"]])
-  app.normalTankIm = ([["track_1_a.png","track_1_b.png"],["hull_06.png"],
-                        ["gun_03.png"]])
+  app.storeNormalTankIm = ([["images/track_1_a.png","images/track_1_b.png"],["images/hull_06.png"],
+                          ["images/gun_03.png"]])
+  app.normalTankIm = ([["images/track_1_a.png","images/track_1_b.png"],["images/hull_06.png"],
+                        ["images/gun_03.png"]])
 
-  app.storeAttackTankIm = ([["track_3_A.png","track_3_B.png"],["hull_03.png"],
-                          ["gun_05_b.png"]])
-  app.attackTankIm = ([["track_1_a.png","track_1_b.png"],["hull_03.png"],
-                        ["gun_05_b.png"]])
-  app.explosionIm = ["explosion_c.png","explosion_d.png","explosion_e.png"]
+  app.storeAttackTankIm = ([["images/track_3_A.png","images/track_3_B.png"],["images/hull_03.png"],
+                          ["images/gun_05_b.png"]])
+  app.attackTankIm = ([["images/track_1_a.png","images/track_1_b.png"],["images/hull_03.png"],
+                        ["images/gun_05_b.png"]])
+  app.explosionIm = ["images/explosion_c.png","images/explosion_d.png","images/explosion_e.png"]
 
   # from https://stock.adobe.com/search?k=wood+plank+background+cartoon
-  app.barrierIm = ["barrier.png"]*6
+  app.barrierIm = ["images/barrier.png"]*6
 
   # FUNCTIONS TO GET IT STARTED 
   getBarrierData(app)
