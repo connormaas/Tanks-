@@ -120,22 +120,22 @@ def appStarted(app, highScore=None):
 
   #IMAGES
   # from https://craftpix.net/product/2d-top-down-tank-game-assets/
-  app.storeUserTankIm = ([["Track_1_A.png","Track_1_B.png"],["Hull_02.png"],
-                        ["Gun_01.png"]])
-  app.userTankIm = ([["Track_1_A.png","Track_1_B.png"],["Hull_02.png"],
-                        ["Gun_01.png"]])
+  app.storeUserTankIm = ([["track_1_A.png","track_1_B.png"],["hull_02.png"],
+                        ["gun_01.png"]])
+  app.userTankIm = ([["track_1_A.png","track_1_B.png"],["hull_02.png"],
+                        ["gun_01.png"]])
   
 
-  app.storeNormalTankIm = ([["Track_1_A.png","Track_1_B.png"],["Hull_06.png"],
-                          ["Gun_03.png"]])
-  app.normalTankIm = ([["Track_1_A.png","Track_1_B.png"],["Hull_06.png"],
-                        ["Gun_03.png"]])
+  app.storeNormalTankIm = ([["track_1_a.png","Track_1_b.png"],["hull_06.png"],
+                          ["gun_03.png"]])
+  app.normalTankIm = ([["track_1_a.png","track_1_b.png"],["hull_06.png"],
+                        ["gun_03.png"]])
 
-  app.storeAttackTankIm = ([["Track_3_A.png","Track_3_B.png"],["Hull_03.png"],
-                          ["Gun_05_B.png"]])
-  app.attackTankIm = ([["Track_1_A.png","Track_1_B.png"],["Hull_03.png"],
-                        ["Gun_05_B.png"]])
-  app.explosionIm = ["Explosion_C.png","Explosion_D.png","Explosion_E.png"]
+  app.storeAttackTankIm = ([["track_3_A.png","track_3_B.png"],["hull_03.png"],
+                          ["gun_05_b.png"]])
+  app.attackTankIm = ([["track_1_a.png","track_1_b.png"],["hull_03.png"],
+                        ["gun_05_b.png"]])
+  app.explosionIm = ["explosion_c.png","explosion_d.png","explosion_e.png"]
 
   # from https://stock.adobe.com/search?k=wood+plank+background+cartoon
   app.barrierIm = ["barrier.png"]*6
