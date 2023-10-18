@@ -23,7 +23,7 @@ This Python-based application brings to life a 2D virtual tank battle in a dedic
    - The shooter tank: This is a CPU tank which is able to navigate the map, avoid the user tank's missiles, and fire missiles at the user.
    - The attack tank: The attack tank is a extra speedy tank which charges directly at the user tank, while also having the ability to avoid the user's missiles. While it does not have the ability to shoot missiles itself, if it comes into contact with the user tank, it explodes and eliminates it.
 
-## Implementation Details
+### Implementation
 
 - **tanks.py**: This is the main game file. It contains the implementation of the game logic, including tank movement, shooting mechanisms, and the game loop. This file initializes a window using `graphics.py` and then continuously checks for user input to move the tank or shoot missiles . The game also checks for collisions between missiles and enemy tanks to determine if a tank is destroyed.
 - **graphics.py**: This file contains the implementation of the graphics used in the game. It provides various classes and functions to handle graphical elements, such as windows, points, lines, circles, and text. The game uses this library to render the battlefield, tanks, and missiles.
