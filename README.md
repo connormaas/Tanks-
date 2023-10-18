@@ -31,7 +31,7 @@ This Python-based application brings to life a 2D virtual tank battle in a dedic
 
 ## Installation and Dependencies
 
-General:
+Required:
 - **Python**: The app can successfully run on `Python 3.7.9`, but should work on most versions of Python.
 - **[pyautogui](https://pyautogui.readthedocs.io)**: Mouse and keyboard assistance for more interactive gameplay.
 
