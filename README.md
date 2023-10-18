@@ -1,7 +1,5 @@
 # Tanks Game
 
-Welcome to the Tanks Game repository! Navigate your tank in 8 different directions to shoot and destroy CPU opponents in a competitive battle that only gets more difficult as you progress. Don't forget: gameplay is always unique because obstacles are periodically randomized.
-
 ## Demo
 
 A video demo for the game can be found [here](https://www.youtube.com/watch?v=44Ij5p1PsN0).
