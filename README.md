@@ -26,7 +26,7 @@ This Python-based application brings to life a 2D virtual tank battle in a dedic
 ### Implementation
 
 1. **`tanks.py`**: This is the main game file. It contains the implementation of the game logic, including tank movement, shooting mechanisms, and the game loop. This file initializes a window using `graphics.py` that contains both the home page and gameplay screen. During gameplay, it checks for user input to move the tank or shoot missiles, navigates the CPU tanks in effort to destory the user, checks for collisions between missiles and tanks to determine if a tank is destroyed, updates levels and keeps track of multiple ongoing factors, and much more.
-2. **`graphics.py`**: This file is a modified version of the tkinter-based [cmu_112_graphic](https://www.cs.cmu.edu/~112/notes/notes-graphics.html) package and contains the implementation for the graphics used in the game. It provides various classes and functions to handle graphical elements, such as windows, points, lines, circles, and text. The game uses this library to render the battlefield, tanks, and missiles.
+2. **`graphics.py`**: This file is a modified version of the tkinter-based [cmu_112_graphics](https://www.cs.cmu.edu/~112/notes/notes-graphics.html) package and contains the implementation for the graphics used in the game. It provides various classes and functions to handle graphical elements, such as windows, points, lines, circles, and text. The game uses this library to render the battlefield, tanks, and missiles.
 3. **`images`**: This folder stores the images used and displayed in the game window.
 
 ## Installation and Dependencies
