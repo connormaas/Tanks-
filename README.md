@@ -6,7 +6,7 @@ A video demo for the game can be found [here](https://www.youtube.com/watch?v=44
 
 ## Creator's Note
 
-I'm proud of this work, but please note that this program was developed back in 2020, at an earlier stage in my programming journey. As such, it might exhibit some bugs or performance issues. While I've grown and improved since then, I'm currently focusing on other projects and won't be making major updates to this one. So, this way it shall stay. 😂 Regardless, enjoy the repository!
+I'm proud of this work, but please note that this program was developed back in 2020, at an earlier stage in my programming journey. As such, it might exhibit some bugs or performance issues. While I've grown and improved since then, I'm currently focusing on other projects and won't be making major updates to this one. Regardless, enjoy the repository!
 
 ## Overview
 
